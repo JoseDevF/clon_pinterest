@@ -60,7 +60,7 @@ nav {
 }
 
 .navbar_input_search>svg {
-    height: 0.9rem;
+    height: 1rem;
     margin-top: auto;
     margin-bottom: auto;
 }
@@ -98,10 +98,43 @@ nav {
 }
 
 .card {
+    position: relative;
     padding: 0;
     margin: 15px 10px;
     border-radius: var(--card_border_radius);
     background-color: red;
+}
+
+.card_content {
+    width: 100%;
+    height: 100%;
+    padding-top: 0.5rem;
+    position: absolute;
+    text-align: center;
+    background-color: crimson;
+    border-radius: var(--card_border_radius);
+}
+
+.card_buttons_on_hover {
+    width: 100%;
+    height: 100%;
+    padding-top: 0.5rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: center;
+    opacity: 0;
+    background-color: rgba(0, 0, 0, 0.493);
+    color: white;
+    transition: opacity 0.3s ease-in-out;
+    border-radius: var(--card_border_radius);
+}
+
+.card_buttons_on_hover:hover {
+    opacity: 1;
 }
 
 .card_small {
