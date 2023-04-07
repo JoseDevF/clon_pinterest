@@ -1,3 +1,18 @@
+#inicio-boton{
+    display: none;
+}
+#hoy-boton{
+    display: none;
+}
+#crear-boton{
+    display: none;
+}
+#message{
+    display: none;
+}
+#notifications{
+    display: none;
+}
 .navbar_pinterest_buttons_container{
     width: 30%;
     background-color: #FFFFFF;

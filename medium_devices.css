@@ -1,3 +1,13 @@
+#inicio-boton{
+    display: none;
+}
+#hoy-boton{
+    display: none;
+}
+#message{
+    display: none;
+}
+
 .navbar_pinterest_buttons_container{
     width: 20%;
     background-color: #FFFFFF;

@@ -4,6 +4,36 @@
     padding: 0px;
     font-size: 16px; /*Equivalencia a 1rem */
 }
+
+@media (max-width: 480px) {
+    #inicio-boton{
+        display: none;
+    }
+    #hoy-boton{
+        display: none;
+    }
+    #crear-boton{
+        display: none;
+    }
+    .media-q1{
+        display: none;
+    }
+}
+@media (max-width: 768px) {
+    #inicio-boton{
+        display: none;
+    }
+    #hoy-boton{
+        display: none;
+    }
+    .media-q1{
+        display: none;
+    }
+    .media-q2{
+        display: none;
+    }
+}
+
 @font-face {
     font-family: PINTE;
     src: url('assets/fonts/FreeSansBold.ttf');
