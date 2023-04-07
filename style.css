@@ -152,7 +152,7 @@ main {
     top: 0;
     left: 0;
     display: flex;
-    /* flex-direction: column; */
+    flex-direction: column;
     /* flex-wrap: wrap; */
     /* align-content: center; */
     opacity: 0;
@@ -276,7 +276,7 @@ p, input>::placeholder{
 .save{
     background-color: #E60023;
     border-radius: 30px;
-    float: left;
+    float: right;
     margin-top: 1rem;
     margin-left: 1rem;
     color: #FFFFFF;
